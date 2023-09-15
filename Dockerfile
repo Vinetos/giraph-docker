@@ -1,9 +1,9 @@
-# Creates pseudo distributed hadoop 2.4 running giraph
+# Creates pseudo distributed hadoop 2.7 running giraph
 #
 # docker build -t uwsampa/giraph .
 
-FROM sequenceiq/hadoop-docker:2.4.1
-MAINTAINER uwsampa
+FROM sequenceiq/hadoop-docker:2.7.0
+MAINTAINER Vinetos
 
 USER root
 
